@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+}
+
+.main {
+    height: 500px;
+    display: flex;
+}
+
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    width: 180px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 55px;
+    color: white;
+
+}
+
+.pp1 {
+    max-width: 170px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    width: 180px;
+    padding: 55px;
+    color: white;
+
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    width: 180px;
+    padding: 55px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+
+.b1 {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    width: 90px;
+    height: 35px;
+    margin-top: 90px;
+    margin-left: 20px;
+}
